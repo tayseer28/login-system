@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Sign up</title>
+</head>
+
+<body>
+    <main>
+        <div class="container my-5">
+            <div class="input-box w-75 m-auto p-5 shadow-effect text-center">
+                <h1 class="display-4 fw-medium mb-2">Smart Login System</h1>
+                <!-- name input -->
+                <div class="input-group mb-3">
+                    <input id="userName" type="text" class="form-control bg-transparent" placeholder="Enter your name" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <!-- email input -->
+                <div class="input-group mb-3">
+                    <input id="userEmail" type="email" class="form-control bg-transparent" placeholder="Enter your email" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <!-- password input -->
+                <div class="input-group mb-3">
+                    <input id="userPasswrod" type="password" class="form-control bg-transparent" placeholder="Enter your password" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <!-- <p id="emptyError" class="text-danger d-none" >All fields are required</p>
+                <p class="text-success d-none">Success</p>
+                <p id="formatError" class="text-danger">user name must be at least 3 char , email must be valid, password length must be at least 8 chars</p> -->
+                <p id="signUpStatus"></p>
+                <!-- login button -->
+                <button id="signUpBtn" type="button" class="btn btn-outline-info w-100 mt-4 opacity-75">Sign Up</button>
+                <!-- a go to the signup page -->
+                <p class="text-white my-4">Don’t have an account?<a href="index.html" target="_blank"> Sign in</a></p>
+            </div>
+        </div>
+    </main>
+
+
+    <script type="module" src="./JS/signUp.js"></script>
+</body>
+
+</html>

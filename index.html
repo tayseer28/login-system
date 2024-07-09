@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="container my-5">
+            <div class="input-box w-75 m-auto p-5 text-center shadow-effect">
+                <h1 class="display-4 fw-medium mb-3">Smart Login System</h1>
+                <!-- email input -->
+                <div class="input-group mb-3">
+                    <input id="userEmail" type="email" class="form-control bg-transparent py-2" placeholder="Enter your email" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <!-- password input -->
+                <div class="input-group mb-3">
+                    <input id="userPassword" type="password" class="form-control bg-transparent py-2" placeholder="Enter your password" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <p id="signInStatus"></p>
+                <!-- login button -->
+                <button id="signInBtn" type="button" class="btn btn-outline-info w-100 mt-4 opacity-75">Login</button>
+                <!-- a go to the signup page -->
+                <p class="text-white my-4">Don’t have an account?<a href="signUp.html" target="_blank"> Sign Up</a></p>
+            </div>
+        </div>
+    </main>
+
+
+    <script type="module" src="./JS/signIn.js"></script>
+</body>
+
+</html>
